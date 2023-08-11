@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
 *{
-    padding: 0;
-    margin: 0;
+    margin:0;
+    padding:0;
+    transition: all 0.2s linear;
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-
+body{
+    background-color:#030303;
+    overflow-x: hidden;
+}
 
 .discover {
     background: url("../img/main_bg.png") no-repeat center center;
@@ -110,3 +117,209 @@ h1 span {
     text-align: center;
     cursor: pointer;
 }
+
+
+.container{
+    position: relative;
+    background: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    opacity:0.9;
+    background-position: center;
+}
+
+/*  Holiday section starts */
+    .container2{
+        position: relative;
+        top:1rem;
+    }
+    .container2 .img1{
+        position: absolute;
+        top:-10rem;
+        left:8rem;
+    }
+
+    .container2 .title1{
+        position: absolute;
+        color:#FBD784;
+        left:65rem;
+        top:2rem;
+        font-size:1.2rem;
+    }
+    .container2 .title1::after{
+        content: '';
+        position: absolute;
+        width:6rem;
+        left:-7.7rem;
+        top:0.6rem;
+        height:0.1rem;
+        background-color:#FBD784;
+    }
+    .container2 .txt1{
+        position: absolute;
+        color:#ffff;
+        font-size:3rem;
+        left:57.7rem;
+        top:5rem;
+        font-weight:600;
+    }
+    .container2 .txt2{
+        position: absolute;
+        color:#ffff;
+        font-size:1rem;
+        left:57.7rem;
+        top:18rem;
+    }
+
+    .container2 .txt3{
+        position: absolute;
+        color: #FBD784;
+        top:25.7rem;
+        left:57.7rem;
+    }
+
+    .container2 .img2{
+        position: absolute;
+        top:25.7rem;
+        left:62.3rem;
+    }
+/*  Holiday section ends */
+
+/* Qwery section starts */
+    .container3{
+        position: relative;
+        top:55rem;
+    }
+    .container3 .title2{
+        position: absolute;
+        color:#ffff;
+        font-size:2rem;
+        left:10rem;
+    }
+    .container3 .txt4 {
+        position: absolute;
+        left:65rem;
+        color:#ffff;
+    }
+    .container3 .btn1{
+        position: absolute;
+        left:80rem;
+        top:-1rem;
+        padding:1rem;
+        border:1px solid #FBD784;
+        color:#ffff;
+    }
+    .container3 .btn1:hover{
+        background: #FFA343;
+        border: none;
+        color: #030303;
+    }
+    .container3 .divider{
+        position: absolute;
+        width:90rem;
+        left:5rem;
+        top:4rem;
+        height:0.1rem;
+        background-color: #ffff;
+    }
+/* Qwery section ends */
+
+/* Footer section starts */
+    .container4{
+        position: relative;
+        top:63rem;
+    }
+
+    .container4 .title3{
+        position: absolute;
+        left:5rem;
+        color:#ffff;
+    }
+    .container4 .txt5{
+        position: absolute;
+        left:5rem;
+        color:#ffff;
+        top:10rem;
+    }
+    .container4 .divider2{
+        position: absolute;
+        width:15rem;
+        left:4.8rem;
+        top:12rem;
+        opacity:0.2;
+        height:0.1rem;
+        background-color: #ffff;
+    }
+    .container4 .btn2{
+        position: absolute;
+        left:17rem;
+        border-radius:0.5rem;
+        top:8.7rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding:1rem;
+        border:1px solid #FBD784;
+        color:#ffff;
+    }
+    .container4 .btn2:hover{
+        background: #FFA343;
+        border: none;
+        color: #030303;
+    }
+    .container4 .menu{
+        position: relative;
+        left:35rem;
+        font-size:1.2rem;
+    }
+    .container4 .menu .title4{
+        color:#FBD784;
+    }
+    .container4 .menu .title4 .innermenu1 li{
+        color: #ffff;
+        margin-top:1rem;
+    }
+    .container4 .menu .title5{
+        color:#FBD784;
+        position: relative;
+        left:25rem;
+        top:-11rem;
+    }
+    .container4 .menu .title5 .innermenu2 li{
+        color: #ffff;
+        margin-top:1rem;
+    }
+    .container4 .menu .title6{
+        color:#FBD784;
+        position: relative;
+        left:45rem;
+        top:-21.7rem;
+    }
+    .container4 .menu .title6 .innermenu3 li{
+        color: #ffff;
+        margin-top:1rem;
+    }
+
+    .container4 .btn3{
+        position: absolute;
+        color:#ffff;
+        left:7rem;
+        top:20rem;
+    }
+    .container4 .btn4{
+        position: absolute;
+        color:#ffff;
+        left:18rem;
+        top:20rem;
+    }
+    .container4 .icons{
+        position: absolute;
+        left:75rem;
+        bottom:6rem;
+    }
+    .container4 p{
+        color:#ffff;
+        opacity:0.6;
+        text-align: center;
+    }
+/* Footer section ends */
