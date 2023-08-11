@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.discover {
+    background: url("../img/main_bg.png") no-repeat center center;
+    background-size: cover;
+    padding: 64px 85px 200px 85px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    user-select: none;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 348px;
+}
+.header nav > a {
+    color: #d0cfcf;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 400ms ease;
+    &:hover {
+        color: #fff;
+    }
+}
+.header .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88px;
+    opacity: 75%;
+    color: #e5e4e4;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 600ms ease;
+    &:hover {
+        opacity: 100%;
+        color: #fff;
+        }
+    }
+
+.main {
+    top: -198px;
+    display: block;
+    margin: 0 auto;
+    width: 751px;
+    position: relative;
+}
+.discover .main h2 {
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    position: absolute;
+    left: 100px;
+}
+.discover .main .divider {
+    position: absolute;
+    left: -0px;
+    top: 11px;
+    width: 72px;
+    height: 2px;
+    background-color: #FFC178;
+}
+
+.img {
+    margin-top: 217px;
+    width: 25px;
+    height: 217px;
+    display:block;
+    cursor: pointer;
+}
+
+.discover h1 {
+    padding-top: 32px;
+    color: #fff;
+    font-size: 77px;
+    font-weight: 400;
+}
+h1 span {
+    font-weight: 700;
+    font-size: 86px;
+}
+.discover .main h3 {
+    padding-top: 125px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
